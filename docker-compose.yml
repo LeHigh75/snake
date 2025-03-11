@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  snake:
+    image: lehigh/snake:latest
+    container_name: snake
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DJANGO_SETTINGS_MODULE=futuristic_snake.settings
+    command: python manage.py runserver 0.0.0.0:8000

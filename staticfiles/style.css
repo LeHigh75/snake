@@ -1,0 +1,14 @@
+     /* game/static/game/style.css */
+     body {
+        background-color: #121212;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #gameCanvas {
+        border: 1px solid #ffffff;
+    }

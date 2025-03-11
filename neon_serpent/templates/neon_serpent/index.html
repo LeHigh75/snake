@@ -1,0 +1,15 @@
+   <!-- neon_serpent/templates/neon_serpent/index.html -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Quantum Coil</title>
+       {% load static %}
+       <link rel="stylesheet" href="{% static 'neon_serpent/style.css' %}">
+   </head>
+   <body>
+       <canvas id="gameCanvas"></canvas>
+       <script src="{% static 'neon_serpent/snake.js' %}"></script>
+   </body>
+   </html>
